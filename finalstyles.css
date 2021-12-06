@@ -1,1 +1,93 @@
 /* css file: finalstyles.cc */
+/* fonts font-family: 'Poppins' */
+/* font-family: 'Zen Antique', */
+
+body {
+    width: 50%;
+    margin: 75px auto;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+    }
+}
+
+.copy {
+ font-family: 'Poppins', sans-serif;
+}
+
+h1, h4 {
+    font-family: 'Zen Antique', serif;
+}
+
+.head#h1 {
+    font-size: 25px
+}
+
+.head#byline {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.head#pub {
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+}
+
+.head#h2 {
+    font-size: 20px;
+}
+
+.link:link {
+    color: grey;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    color: #ffd18c;
+}
+
+.interlinks {
+    font-style: italic;
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+#fran {
+    width: 100%;
+}
+
+.copy.cutline {
+    font-size: 10px;
+}
+
+#photoone {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    margin-left: 50px;
+}
+
+#boat {
+    width: 100%;
+}
+
+#phototwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.pullquote {
+    background-color:#f5f5f5;
+    border-left: 5px solid #ffd18c;
+    margin: 50px 25px 50px 25px;
+}
+
+footer {
+    text-align: center;
+}
