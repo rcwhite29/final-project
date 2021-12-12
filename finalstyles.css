@@ -5,6 +5,7 @@
 body {
     width: 50%;
     margin: 75px auto;
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -18,18 +19,18 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 500%;
+    color: white;
 }
 
-h1, h4 {
+h1, h4, h2 {
     font-family: 'Zen Antique', serif;
 }
 
 .head#h1 {
-    font-size: 25px
+    font-size: 40px;
 }
 
-.head#byline {
+.head.byline {
     font-size: 15px;
     font-weight: bold;
 }
@@ -41,19 +42,19 @@ h1, h4 {
 }
 
 .head#h2 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .link:link {
-    color: grey;
+    color: #467c8a;
 }
 
 .link:visited {
-    color: grey;
+    color: #467c8a;
 }
 
 .link:hover {
-    color: #ffd18c;
+    color: #467c8a;
 }
 
 .interlinks {
@@ -67,7 +68,7 @@ h1, h4 {
 }
 
 .copy.cutline {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 #photoone {
@@ -115,10 +116,58 @@ footer {
 
 .charts {
     margin: 25px 0px 25px 0px;
+    padding: 25px 0px 25px 0px;
     border-top: 5px solid #ffd18c;
     border-bottom: 5px solid #ffd18c;
+    display: flex;
+    justify-content: space-around;
+    overflow: visible;
+    left: 50%;
+	margin-left: -37vw;
+	margin-right: -50vw;
+	max-width: 75vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
 }
 
 #masthead {
     line-height: 10px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+#something {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    overflow: visible;
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+#stuff {
+    background-color: black;
+    height: 110px;
+    display: flex;
+    overflow: visible;
+    justify-content: space-around;
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+    margin-top: -10px;
+}
+
+#specialcutline {
+    color: white;
 }
